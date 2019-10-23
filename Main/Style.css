@@ -1,3 +1,8 @@
+element {
+    --huck-color: #435681;
+}
+
+
 header h1 {
     font-size: 6em;
 }
