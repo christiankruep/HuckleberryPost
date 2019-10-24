@@ -64,5 +64,18 @@ div.financial {
 div.sports {
     margin: 5px;
     padding: 10px;
+    border: solid 2px #435681;
+}
+
+#music{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 150px;
+}
+
+div.music {
+    margin: 5px;
+    padding: 10px;
     border: solid 2px #558143;
 }
