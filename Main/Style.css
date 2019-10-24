@@ -40,3 +40,16 @@ div.culture {
     padding: 10px;
     border: solid 2px #435681;
 }
+
+#financial {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 150px;
+}
+
+div.financial {
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px #558143;
+}
