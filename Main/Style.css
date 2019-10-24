@@ -53,3 +53,16 @@ div.financial {
     padding: 10px;
     border: solid 2px #558143;
 }
+
+#sports{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 150px;
+}
+
+div.sports {
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px #558143;
+}
