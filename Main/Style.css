@@ -20,6 +20,12 @@ header h2 {
     font-size: 2em;
 }
 
+body {
+    max-width: 1000px;
+    min-width: 700px;
+    width: auto;
+}
+
 #top-bar {
     font-size: 1em;
     display: flex;
@@ -118,4 +124,13 @@ h3.cat-headings {
     text-align: center;
     font-size: 1.5em;
     font-family: 'Helvetica Neue', sans-serif;
+}
+
+a:link, a:visited {
+    color: #6e4381;
+    text-decoration: none;
+}
+
+a:link:active, a:visited:active {
+    color: #6e4381;
 }
