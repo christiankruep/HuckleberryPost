@@ -4,6 +4,7 @@ body {
     min-width: 700px;
     width: auto;
 }
+
 .variables {
     --huck-color: #435681;
     --huck-brown: #816e43;
@@ -13,8 +14,14 @@ body {
 
 header {
     padding: 15px;
-    border-top: solid 5px #435681;
-    border-bottom: solid 5px #435681;
+    border-top: solid 5px #558143;
+    border-bottom: solid 5px #558143;
+}
+
+#hucklogo {
+    height:200px;
+    width: 200px;
+    float: right;
 }
 
 header h1 {
@@ -25,9 +32,10 @@ header h1 {
 header h2 {
     font-size: 2em;
 }
+
 p {
     font-size: 1em;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Futura', sans-serif;
 }
 img {
     align-content: center;
