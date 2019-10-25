@@ -9,6 +9,7 @@ header {
     padding: 15px;
     border-top: solid 5px #435681;
     border-bottom: solid 5px #435681;
+    background: rgb(200, 200, 200);
 }
 
 header h1 {
@@ -19,20 +20,47 @@ header h2 {
     font-size: 2em;
 }
 
-h3 {
-    font-size: 1.5em;
+#top-bar {
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#bar-begin {
+    margin-right: 10px;
+}
+
+#bar-end {
+    margin-left: 10px;
+}
+
+
+#hucklogo {
+    height:200px;
+    width: 200px;
+    float: right;
 }
 
 #categories {
+    margin-top: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #culture {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     flex: 150px;
+    border-left: solid 1px #435681;
+    border-right: solid 1px #435681;
+}
+
+div {
+    font-family: 'Helvetica', sans-serif;
 }
 
 div.culture {
@@ -43,9 +71,11 @@ div.culture {
 
 #financial {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     flex: 150px;
+    border-left: solid 1px #435681;
+    border-right: solid 1px #435681;
 }
 
 div.financial {
@@ -56,9 +86,11 @@ div.financial {
 
 #sports{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     flex: 150px;
+    border-left: solid 1px #435681;
+    border-right: solid 1px #435681;
 }
 
 div.sports {
@@ -69,13 +101,21 @@ div.sports {
 
 #music{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     flex: 150px;
+    border-left: solid 1px #435681;
+    border-right: solid 1px #435681;
 }
 
 div.music {
     margin: 5px;
     padding: 10px;
     border: solid 2px #558143;
+}
+
+h3.cat-headings {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Helvetica Neue', sans-serif;
 }
