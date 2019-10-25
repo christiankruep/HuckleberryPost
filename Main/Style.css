@@ -31,6 +31,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
+    flex-grow: inherit;
 }
 
 #bar-begin {
@@ -70,7 +71,7 @@ div {
 
 div.culture {
     margin: 5px;
-    padding: 25px;
+    padding: 10px;
     border: solid 2px #435681;
 }
 
