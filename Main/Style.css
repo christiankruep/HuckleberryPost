@@ -27,11 +27,16 @@ body {
 
 #top-bar {
     font-size: 1em;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em; 
     flex-grow: inherit;
+    background-color: #435681;
 }
 
 #bar-begin {

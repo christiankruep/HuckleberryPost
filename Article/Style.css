@@ -58,6 +58,12 @@ p {
     white-space: pre-line;
 }
 
+#Article-Header {
+    margin-bottom: 2em;
+    font-family: Charcoal, 'Arial Narrow Bold', sans-serif;
+
+}   
+
 #Article-Paragraph h2 {
     font-family: Charcoal, 'Arial Narrow Bold', sans-serif;
 }
