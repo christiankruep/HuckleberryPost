@@ -19,21 +19,19 @@ header {
     border-bottom: solid 5px #558143;
 }
 
-#top-bar {
-    font-size: 1em;
+.top-bar {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-    flex-grow: inherit;
+    justify-content: center;
+    background-color: #435681;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: #ffffff;
 }
 
-#bar-begin {
-    margin-right: 10px;
-}
-
-#bar-end {
-    margin-left: 10px;
+.top-bar h3 {
+    margin-left: 4em;
+    margin-right: 4em; 
 }
 
 #hucklogo {
@@ -71,4 +69,9 @@ p {
 #big-p {
     font-size: 3em;
     white-space: inline;
+}
+
+.euphoria  {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
