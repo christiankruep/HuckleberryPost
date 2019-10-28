@@ -61,8 +61,8 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 150px;
-    border-left: solid 1px #435681;
-    border-right: solid 1px #435681;
+    border-left: solid 3px #435681;
+    border-right: solid 2px #435681;
 }
 
 div {
@@ -72,7 +72,6 @@ div {
 div.culture {
     margin: 5px;
     padding: 10px;
-    border: solid 2px #435681;
 }
 
 #financial {
@@ -80,14 +79,13 @@ div.culture {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 150px;
-    border-left: solid 1px #435681;
-    border-right: solid 1px #435681;
+    border-left: solid 2px #435681;
+    border-right: solid 2px #435681;
 }
 
 div.financial {
     margin: 5px;
     padding: 10px;
-    border: solid 2px #558143;
 }
 
 #sports{
@@ -95,14 +93,14 @@ div.financial {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 150px;
-    border-left: solid 1px #435681;
-    border-right: solid 1px #435681;
+    border-left: solid 2px #435681;
+    border-right: solid 2px #435681;
 }
 
 div.sports {
     margin: 5px;
     padding: 10px;
-    border: solid 2px #435681;
+    
 }
 
 #music{
@@ -110,14 +108,13 @@ div.sports {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 150px;
-    border-left: solid 1px #435681;
-    border-right: solid 1px #435681;
+    border-left: solid 2px #435681;
+    border-right: solid 4px #435681; 
 }
 
 div.music {
     margin: 5px;
     padding: 10px;
-    border: solid 2px #558143;
 }
 
 h3.cat-headings {

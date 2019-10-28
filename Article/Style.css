@@ -3,6 +3,7 @@ body {
     max-width: 1000px;
     min-width: 700px;
     width: auto;
+    padding: 15px;
 }
 
 .variables {
@@ -16,6 +17,23 @@ header {
     padding: 15px;
     border-top: solid 5px #558143;
     border-bottom: solid 5px #558143;
+}
+
+#top-bar {
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-grow: inherit;
+}
+
+#bar-begin {
+    margin-right: 10px;
+}
+
+#bar-end {
+    margin-left: 10px;
 }
 
 #hucklogo {
@@ -40,6 +58,11 @@ p {
     white-space: pre-line;
 }
 
-img {
-    align-content: center;
+#Article-Paragraph h2 {
+    font-family: Charcoal, 'Arial Narrow Bold', sans-serif;
+}
+
+#big-p {
+    font-size: 3em;
+    white-space: inline;
 }
