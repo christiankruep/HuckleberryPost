@@ -23,6 +23,7 @@ body {
     max-width: 1000px;
     min-width: 700px;
     width: auto;
+    margin: auto;
 }
 
 .top-bar {
@@ -59,7 +60,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 150px;
-    border-left: solid 3px #435681;
+    border-left: solid 4px #435681;
     border-right: solid 2px #435681;
 }
 
