@@ -31,8 +31,6 @@ body {
     flex-direction: row;
     justify-content: center;
     background-color: #435681;
-    margin-top: 1em;
-    margin-bottom: 2em;
     color: #ffffff;
 }
 
@@ -49,7 +47,6 @@ body {
 }
 
 #categories {
-    margin-top: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
